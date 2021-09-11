@@ -22,3 +22,4 @@ for(const salary of friendSalaries){
     if(salary > max){
         max = salary;
     }
+}
