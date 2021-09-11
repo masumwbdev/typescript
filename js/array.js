@@ -9,3 +9,16 @@ friendSalaries[2] = '23233'
 */
 friendSalaries[2] = 23233;
 console.log(friendSalaries);
+/* not allow
+let max = '0';
+for(const salary of friendSalaries){
+    if(salary > max){
+        max = salary;
+    }
+} */
+let max = 0;
+for (const salary of friendSalaries) {
+    if (salary > max) {
+        max = salary;
+    }
+}
