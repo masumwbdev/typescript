@@ -17,3 +17,18 @@ bool = true;
 console.log(money);
 console.log(rich);
 console.log(bool);
+// function add(first:number, second:number){
+//     const result = first + second;
+//     return result;
+// }
+// console.log(add(23,21))
+// multi purpose 
+// function addNum(first: number | string, second: number | string): number | string {
+//     const result: string | number = first + second;
+//     return result;
+// }
+// const output: number = addNum(34, 23);
+// const fullName = addNum('Masum', 'Hossain')
+// function numFunc = (number: number): void{
+//     console.log(2 * number)
+// }
